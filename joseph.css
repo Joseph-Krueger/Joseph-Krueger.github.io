@@ -1,9 +1,6 @@
 body {
-    background-color: rgba(177,162,150,.8);
     margin: 0;
-    background-image: url(Background.png);
-    background-size: cover;
-    color: white
+    color: black:
 }
 .Joe {
     text-align: center;
@@ -40,13 +37,9 @@ html {
     text-decoration: none;
 }
 .topbar {
-    %position: fixed;
-  %top: 0;
   width: 100%;
-    color: white;
-    %background-image:url(Headshot.JPG);
-    %background-size: 300%;
-    background-color: rgba(93,92,97,.9);
+    color: black;
+    background-color: white;
 }
 .linkedin {
     float: right;
@@ -71,32 +64,46 @@ h3 {
 }
 .maincontent {
     margin: 0px;
-    padding: 10px;
     font-size: 20px;
-    background-color: rgba(93,92,97,.5);
+    background-color: white;
 }
 #headshot {
     float: right;
-    width: 50%;
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+    filter: brightness(.8);
+    padding: 5px;
 }
+
 h4 {
     font-size: 40px;
     margin-bottom: 5px;
     margin-top: 0;
+    text-align: center;
 }
 p {
     margin: 0px;
 }
 #bio {
     overflow: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 #skills {
     overflow: auto;
+    padding: 5px;
+    background-color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #resume {
     float: left;
-    height: 1010px;;
-    width: 40%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-right: 20px;
 }
 footer {
@@ -106,24 +113,27 @@ footer {
     padding: 10px;
     background-color: rgba(93,92,97,.5);
 }
+.top {
+    
+}
 /* unvisited link */
 a:link {
-  color: rgb(115,149,174);
+  color: dimgrey;
 }
 
 /* visited link */
 a:visited {
-  color: #7395ae;
+  color: dimgrey;
 }
 
 /* mouse over link */
 a:hover {
-  color: #557a95;
+  color: black;
 }
 
 /* selected link */
 a:active {
-  color: #7395ae;
+  color: dimgrey;
 }
 .sticky {
   position: fixed;
