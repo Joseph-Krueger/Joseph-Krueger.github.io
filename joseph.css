@@ -1,142 +1,22 @@
+.name {
+    padding: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    color: rgb(230,230,230);
+}
+.container {
+    margin: 0;
+    padding: 10px;
+     background-image: url(Mirror.jpg);
+    max-width: 100%;
+    height: auto;
+    
+}
 body {
     margin: 0;
-    color: black:
-}
-.Joe {
-    text-align: center;
-    font-size: 100px;
-    font-size-adjust: auto;
-    margin: 0px;
-}
-.subtitle {
-    margin: 5px;
-    text-align: center;
-    font-size: 30px;
-}
-html {
-  scroll-behavior: smooth;
-}
-.nav{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin: 0;
-    padding:5px;
-    text-align:center;
-    position: sticky;
-    
-}
-.nav li{
-    display:inline;
-}
-.nav a{
-    %display:inline-block;
-    padding:20px;
-    font-size: 30px;
-    color: #05386b;
-    text-decoration: none;
-}
-.topbar {
-  width: 100%;
-    color: black;
-    background-color: white;
-}
-.linkedin {
-    float: right;
-    text-align: center;
-    padding: 5px;
-}
-#header {
-    font-size: 22px;
-    overflow: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.email {
-    float: left;
-    text-align: center;
-    padding: 5px 0 0 0;
-    margin: 0;
-}
-h3 {
-    margin: 0;
-    margin-top: 5px;
-}
-.maincontent {
-    margin: 0px;
-    font-size: 20px;
-    background-color: white;
-}
-#headshot {
-    float: right;
-    max-width: 50%;
-    height: auto;
-    border-radius: 15px;
-    filter: brightness(.8);
-    padding: 5px;
-}
-
-h4 {
-    font-size: 40px;
-    margin-bottom: 5px;
-    margin-top: 0;
-    text-align: center;
-}
-p {
-    margin: 0px;
-}
-#bio {
-    overflow: auto;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-}
-#skills {
-    overflow: auto;
-    padding: 5px;
-    background-color: lightgray;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#resume {
-    float: left;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 20px;
-}
-footer {
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    padding: 10px;
-    background-color: rgba(93,92,97,.5);
 }
 .top {
-    
-}
-/* unvisited link */
-a:link {
-  color: dimgrey;
-}
-
-/* visited link */
-a:visited {
-  color: dimgrey;
-}
-
-/* mouse over link */
-a:hover {
-  color: black;
-}
-
-/* selected link */
-a:active {
-  color: dimgrey;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+    background-color: rgba(100,100,100,.8);
+    margin: 10px;
 }
