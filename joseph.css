@@ -9,14 +9,17 @@
     margin: 0;
     padding: 10px;
      background-image: url(Mirror.jpg);
-    max-width: 100%;
-    height: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
     
 }
 body {
     margin: 0;
 }
 .top {
-    background-color: rgba(100,100,100,.8);
+    background-color: rgba(60,60,60,1);
     margin: 10px;
 }
