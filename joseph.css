@@ -1,9 +1,13 @@
 body {
-    background-color: white;
+    background-color: rgba(177,162,150,.8);
+    margin: 0;
+    background-image: url(Background.png);
+    background-size: cover;
+    color: white
 }
 .Joe {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     font-size-adjust: auto;
     margin: 0px;
 }
@@ -22,6 +26,7 @@ html {
     margin: 0;
     padding:5px;
     text-align:center;
+    position: sticky;
     
 }
 .nav li{
@@ -30,26 +35,33 @@ html {
 .nav a{
     %display:inline-block;
     padding:20px;
-    font-size: 20px;
-    color: dimgrey;
+    font-size: 30px;
+    color: #05386b;
     text-decoration: none;
 }
 .topbar {
     %position: fixed;
   %top: 0;
   width: 100%;
+    color: white;
     %background-image:url(Headshot.JPG);
     %background-size: 300%;
-    background-color: whitesmoke
+    background-color: rgba(93,92,97,.9);
 }
 .linkedin {
+    float: right;
     text-align: center;
-    font-size: 16px;
     padding: 5px;
 }
+#header {
+    font-size: 22px;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .email {
+    float: left;
     text-align: center;
-    font-size: 16px;
     padding: 5px 0 0 0;
     margin: 0;
 }
@@ -58,15 +70,17 @@ h3 {
     margin-top: 5px;
 }
 .maincontent {
-    margin-top: 10px;
+    margin: 0px;
+    padding: 10px;
     font-size: 20px;
+    background-color: rgba(93,92,97,.5);
 }
 #headshot {
     float: right;
     width: 50%;
 }
 h4 {
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 5px;
     margin-top: 0;
 }
@@ -81,6 +95,38 @@ p {
 }
 #resume {
     float: left;
-    height: 800px;;
+    height: 1010px;;
     width: 40%;
+    margin-right: 20px;
+}
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 10px;
+    background-color: rgba(93,92,97,.5);
+}
+/* unvisited link */
+a:link {
+  color: rgb(115,149,174);
+}
+
+/* visited link */
+a:visited {
+  color: #7395ae;
+}
+
+/* mouse over link */
+a:hover {
+  color: #557a95;
+}
+
+/* selected link */
+a:active {
+  color: #7395ae;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
