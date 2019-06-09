@@ -74,11 +74,13 @@ p {
     margin: 0px;
 }
 #bio {
-    display: inline-block;
+    overflow: auto;
 }
-
+#skills {
+    overflow: auto;
+}
 #resume {
-    float: right;
-    height: 800px;
-    width: 400px;
+    float: left;
+    height: 800px;;
+    width: 40%;
 }
