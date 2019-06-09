@@ -4,6 +4,8 @@
     font-size: 50px;
     text-align: left;
     color: rgb(230,230,230);
+    width: auto;
+    margin-right: 50%;
 }
 .container {
     margin: 0;
