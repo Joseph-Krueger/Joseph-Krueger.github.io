@@ -1,6 +1,6 @@
 .name {
     padding: 10px;
-    font-size: 4vw;
+    font-size: 3.5vw;
     background-color: rgba(0,0,0,1);
     opacity: 1;
     border-radius: 2vw;
@@ -57,9 +57,9 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     opacity: .9;
-    height: 40vw;
+    height: 30vw;
     padding-left: 1%;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 #About {
     font-size: 1vw;
@@ -79,9 +79,10 @@ a:hover {
 #headshot {
     min-width: 30%;
     max-width: 40%;
-    float: right;
+    float: left;
     margin-right: 1%;
     border-radius: 2vw;
+    filter: grayscale(.3);
 }
 .Skills {
     width: 99%;
@@ -90,14 +91,14 @@ a:hover {
     height: 75vw;
     overflow: auto;
     padding-left: 1%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     margin: 0;
     margin-bottom: 2vw;
     padding: 0;
-    font-size: 4vw;
+    font-size: 3vw;
     text-decoration: underline;
 }
 #pdf {
@@ -111,7 +112,7 @@ html {
 }
 address {
     color: black;
-    font-size: 1vw;
+    font-size: .75vw;
     text-decoration: none;
     opacity: 1;
     font-family: "Times New Roman", Times, serif;
@@ -128,7 +129,7 @@ address {
     height: 20vw;
     overflow: auto;
     padding-left: 1%;
-    font-size: 2vw;
+    font-size: 1.75vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 #Contact {
@@ -141,7 +142,15 @@ address {
 }
 .Contact li a{
     color: blue;
+    
+}
+.Contact li {
+    height: 3vw;
 }
 .Contact li a:hover{
     color: black;
+}
+p {
+    text-indent: 3vw;
+    margin: 5px;
 }
