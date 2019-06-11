@@ -26,7 +26,6 @@ body {
     position: absolute;
     top: 5%;
     left: 1%;
-    width: 100%;
     text-align: left;
     opacity: .8;
 }
@@ -55,16 +54,14 @@ ul {
     font-size: 30px;
 }
 .About {
-    width: 100%;
+
     color: black;
-    opacity: .8;
+    opacity: .9;
     height: 600px;
     padding-left: 1%;
-    padding-right: 1%;
     font-size: 20px;
 }
 #About {
-    width: 100%;
     font-size: 50px;
     text-align: center;
     align-content: center;
@@ -83,22 +80,29 @@ a:hover {
     min-width: 30%;
     max-width: 40%;
     float: right;
-    margin-right: 2%;
+    margin-right: 1%;
     border-radius: 20px;
+    border: 5px black;
 }
 .Skills {
-    width: 100%;
+    width: 99%;
     color: black;
-    opacity: .8;
-    height: 1200px;
+    opacity: .9;
+    height: 1300px;
+    overflow: auto;
     padding-left: 1%;
-    padding-right: 1%;
     font-size: 20px;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
 }
 #pdf {
     float: right;
+    margin-right: 1%;
     width: 850px;
-    height: 1000px;
+    height: 1150px;
 }
 html {
     scroll-behavior: smooth;
