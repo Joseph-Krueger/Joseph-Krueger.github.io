@@ -93,7 +93,7 @@ body {
     width: 99%;
     color: black;
     opacity: .9;
-    height: 85vw;
+    height: 83vw;
     overflow: auto;
     padding-left: 1%;
     font-size: 1.5vw;
@@ -108,7 +108,7 @@ h2 {
 }
 #pdf {
     float: right;
-    margin-right: 1%;
+    margin: 1%;
     width: 42.5vw;
     height: 57.5vw;
 }
