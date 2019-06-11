@@ -4,7 +4,7 @@
     background-color: rgba(0,0,0,0);
     opacity: 1;
     border-radius: 2vw;
-    text-shadow: 3px 3px black;
+    text-shadow: .25vw .25vw black;
 }
 .container {
      background-image: url(Mirror.jpg);
@@ -47,7 +47,7 @@ body {
     text-align: center;
     padding: 0;
     border-radius: 1vw;
-    text-shadow: 3px 3px black;
+    text-shadow: .15vw .15vw black;
 }
 .links li {
     padding: 1vw;
@@ -61,6 +61,7 @@ body {
     color: black;
     opacity: .9;
     height: 30vw;
+    margin-top: .5vw;
     padding-left: 1%;
     font-size: 1.5vw;
 }
@@ -75,7 +76,7 @@ body {
 }
 .topright a:hover {
     color: burlywood;
-    text-shadow: 4px 4px black;
+    text-shadow: .2vw .2vw black;
 }
 .bio{
     text-align: left;
@@ -92,7 +93,7 @@ body {
     width: 99%;
     color: black;
     opacity: .9;
-    height: 75vw;
+    height: 85vw;
     overflow: auto;
     padding-left: 1%;
     font-size: 1.5vw;
@@ -100,7 +101,7 @@ body {
 }
 h2 {
     margin: 0;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
     padding: 0;
     font-size: 3vw;
     text-decoration: underline;
@@ -130,7 +131,7 @@ address {
     width: 99%;
     color: black;
     opacity: .9;
-    height: 20vw;
+    height: 15vw;
     overflow: auto;
     padding-left: 1%;
     font-size: 1.75vw;
@@ -162,5 +163,5 @@ address {
 }
 p {
     text-indent: 3vw;
-    margin: 5px;
+    margin: 15px;
 }
