@@ -1,6 +1,6 @@
 .name {
     padding: 10px;
-    font-size: 5vw;
+    font-size: 4vw;
     background-color: rgba(0,0,0,1);
     opacity: 1;
     border-radius: 2vw;
@@ -51,18 +51,18 @@ ul {
     display: inline;
     color: white;
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 2vw;
 }
 .About {
 
     color: black;
     opacity: .9;
-    height: 60vw;
+    height: 40vw;
     padding-left: 1%;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 #About {
-    font-size: 5vw;
+    font-size: 1vw;
     text-align: center;
     align-content: center;
 }
@@ -87,23 +87,23 @@ a:hover {
     width: 99%;
     color: black;
     opacity: .9;
-    height: 150vw;
+    height: 75vw;
     overflow: auto;
     padding-left: 1%;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 h2 {
     margin: 0;
     margin-bottom: 2vw;
     padding: 0;
-    font-size: 5vw;
+    font-size: 4vw;
     text-decoration: underline;
 }
 #pdf {
     float: right;
     margin-right: 1%;
-    width: 85vw;
-    height: 115vw;
+    width: 42.5vw;
+    height: 57.5vw;
 }
 html {
     scroll-behavior: smooth;
@@ -114,6 +114,8 @@ address {
     text-decoration: none;
     opacity: 1;
     font-family: "Times New Roman", Times, serif;
+    margin-left: 1%;
+    margin-bottom: 1%;
 }
 #email {
     color: blue;
@@ -122,13 +124,13 @@ address {
     width: 99%;
     color: black;
     opacity: .9;
-    height: 30vw;
+    height: 20vw;
     overflow: auto;
     padding-left: 1%;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 #Contact {
-    font-size: 50px;
+    
     text-align: center;
     align-content: center;
 }
