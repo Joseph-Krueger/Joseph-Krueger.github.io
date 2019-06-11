@@ -54,7 +54,7 @@ ul {
     font-size: 2vw;
 }
 .About {
-
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     opacity: .9;
     height: 40vw;
@@ -91,6 +91,7 @@ a:hover {
     overflow: auto;
     padding-left: 1%;
     font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     margin: 0;
@@ -128,6 +129,7 @@ address {
     overflow: auto;
     padding-left: 1%;
     font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #Contact {
     
