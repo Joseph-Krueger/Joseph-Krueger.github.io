@@ -111,7 +111,7 @@ html {
 }
 address {
     color: black;
-    font-size: 15px;
+    font-size: 1vw;
     text-decoration: none;
     opacity: 1;
     font-family: "Times New Roman", Times, serif;
