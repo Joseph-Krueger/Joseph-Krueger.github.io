@@ -60,7 +60,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     opacity: .9;
-    height: 30vw;
+    %height: 30vw;
+    overflow: hidden;
     margin-top: .5vw;
     padding-left: 1%;
     font-size: 1.5vw;
@@ -93,8 +94,8 @@ body {
     width: 99%;
     color: black;
     opacity: .9;
-    height: 83vw;
-    overflow: auto;
+    %height: 83vw;
+    overflow: hidden;
     padding-left: 1%;
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -131,8 +132,8 @@ address {
     width: 99%;
     color: black;
     opacity: .9;
-    height: 15vw;
-    overflow: auto;
+    %height: 15vw;
+    overflow: hidden;
     padding-left: 1%;
     font-size: 1.75vw;
     font-family: Arial, Helvetica, sans-serif;
