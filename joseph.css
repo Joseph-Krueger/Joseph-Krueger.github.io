@@ -1,9 +1,10 @@
 .name {
-    padding: 10px;
+    padding: 1px;
     font-size: 3.5vw;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0);
     opacity: 1;
     border-radius: 2vw;
+    text-shadow: 3px 3px black;
 }
 .container {
      background-image: url(Mirror.jpg);
@@ -24,27 +25,29 @@ body {
 }
 .top {
     position: absolute;
-    top: 5%;
+    top: 1%;
     left: 1%;
     text-align: left;
-    opacity: .9;
+    opacity: 1;
 }
 .topright {
     position: absolute;
-    top: 5%;
+    top: 2%;
     right: 1%;
     opacity: .9;
+    height: 3vw;
 }
 .link{
     scroll-behavior: smooth;
 }
-ul {
+.topright ul {
     list-style-type: none;
     margin: 0;
-    background-color: black;
+    %background-color: black;
     text-align: center;
     padding: 0;
     border-radius: 1vw;
+    text-shadow: 3px 3px black;
 }
 .links li {
     padding: 1vw;
@@ -66,12 +69,13 @@ ul {
     text-align: center;
     align-content: center;
 }
-li a {
+.topright li a {
     color: white;
     text-decoration: none;
 }
-a:hover {
+.topright a:hover {
     color: burlywood;
+    text-shadow: 4px 4px black;
 }
 .bio{
     text-align: left;
@@ -138,6 +142,12 @@ address {
     align-content: center;
 }
 .Contact ul{
+    list-style-type: none;
+    margin: 0;
+    %background-color: black;
+    text-align: center;
+    padding: 0;
+    border-radius: 1vw;
     background-color: white;
 }
 .Contact li a{
