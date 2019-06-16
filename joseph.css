@@ -6,6 +6,10 @@
     border-radius: 2vw;
     text-shadow: .25vw .25vw black;
 }
+.name a {
+    text-decoration: none;
+    color: white;
+}
 
 .container {
     background-image: url(Mirror.jpg);
@@ -18,7 +22,10 @@
     opacity: .7;
 
 }
-
+.About a, .Skills a, .Contact a {
+    text-decoration: underline;
+    color: black;
+}
 body {
     margin: 0;
     height: 100%;
@@ -155,7 +162,7 @@ address {
     %height: 15vw;
     overflow: hidden;
     padding-left: 1%;
-    font-size: 1.75vw;
+    font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
