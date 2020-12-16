@@ -1,6 +1,6 @@
 .name {
-    padding: 1px;
-    font-size: 3.5vw;
+    padding: 0 1px 1px 1px;
+    font-size: 5vw;
     background-color: rgba(0, 0, 0, 0);
     opacity: 1;
     border-radius: 2vw;
@@ -22,7 +22,7 @@
     opacity: .7;
 
 }
-.About a, .Skills a, .Contact a {
+.About a, .Skills a, .Contact a, .Projects a {
     text-decoration: underline;
     color: black;
 }
@@ -110,6 +110,19 @@ body {
     border-radius: 2vw;
     filter: grayscale(.3);
 }
+#sym {
+    min-width: 20%;
+    max-width: 30%;
+    float: right;
+    margin-left: 1%;
+    border-radius: 1vw;
+    filter: grayscale(.3);
+}
+
+#title {
+	padding: 0;
+	margin: 0 0 15px 0;
+}
 
 .Skills {
     width: 99%;
@@ -120,6 +133,21 @@ body {
     padding-left: 1%;
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
+}
+.Projects {
+    width: 99%;
+    color: black;
+    opacity: .9;
+    %height: 83vw;
+    overflow: hidden;
+    padding-left: 1%;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Projects {
+
+    text-align: center;
+    align-content: center;
 }
 
 h2 {
@@ -196,6 +224,6 @@ address {
 }
 
 p {
-    text-indent: 3vw;
+    
     margin: .75vw;
 }
