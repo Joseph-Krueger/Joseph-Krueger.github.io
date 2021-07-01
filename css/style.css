@@ -910,6 +910,13 @@ a:focus {
     border-color: #5bd49d;
 }
 
+.portfolio object{
+	margin: auto;
+	height: 100vh;
+  	width: 50vw;
+  	border: 3px solid #5bd49d;
+  	padding: 10px;
+}
 
 /*******************************/
 /********* Banner CSS **********/
@@ -1562,12 +1569,12 @@ a:focus {
     text-align: right;
 }
 
-.footer .copyright p a {
+.footer  p a {
     color: #ffffff;
     font-weight: 600;
 }
 
-.footer .copyright p a:hover {
+.footer p a:hover {
     color: #414141;
 }
 
