@@ -910,8 +910,8 @@ a:focus {
     border-color: #5bd49d;
 }
 
-.portfolio object{
-	margin: auto;
+.portfolio embed{
+	margin-left: 10vw;
 	height: 100vh;
   	width: 50vw;
   	border: 3px solid #5bd49d;
@@ -1560,12 +1560,12 @@ a:focus {
     background: rgba(256, 256, 256, .2);
 }
 
-.footer .copyright p {
+.footer p {
     margin: 0;
     color: #ffffff;
 }
 
-.footer .copyright .col-md-6:last-child p {
+.footer .col-md-6:last-child p {
     text-align: right;
 }
 
