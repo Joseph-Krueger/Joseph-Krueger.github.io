@@ -1,107 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Joseph Krueger</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<head>
-    <title>Joseph Krueger</title>
-    <link rel="shortcut icon" type="image/png" href="Favi.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="joseph.css">
-</head>
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
 
-<body>
-    <div class="container" id="top">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    </div>
-    <div class="top">
-        <span class="name">
-            Joseph Krueger
-        </span>
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-    </div>
-    <div class="topright">
-        <span class="links">
-            <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#skills"> Skills</a></li>
-				<li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </span>
-    </div>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-    <div class="About">
-        <span id="About">
-            <h2><a href="#top">About</a></h2>
-        </span>
-        <span class="bio">
-            <img id="headshot" src="New Headshot close 2.png" alt="Picture of Joseph">
-            <p>I was born in York PA in 1998 to John and Marie Krueger. Growing up my parents always knew that I would become an engineer and as I got older I found that building and fixing electronics, puzzles, and models was a passion. I attended Northeastern Senior High School and graduated magna cum laude in 2017. While I was there I was involved with the orchestra, cross country and track team, math club, Quiz Bowl/Brainbusters, and the Robotics team. In my personal time I served as a manager for a band, cinematographer and composer for an award-winning short film, and volunteered at my church.</p>
-            <p>I am currently a Junior at the Villanova College of Engineering studying Mechanical Engineering with minors in Aerospace Engineering and Math. I am studying to achieve my goals of working in the aerospace industry and furthering the exploration of space.
-            </p>
-        </span>
-    </div>
-    <hr>
-    <div class="Skills" id="skills">
-        <span id="About">
-            <h2><a href="#top">Skills</a></h2>
-        </span>
-        <object type="application/pdf" data="Joseph Krueger Resume 2021.pdf" id="pdf">
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Joseph Krueger</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+						<a href="#about" class="nav-item nav-link">About</a>
+                        <!--<a href="#experience" class="nav-item nav-link">Experience</a>-->
+                        <a href="#portfolio" class="nav-item nav-link">Resume</a>
+                        <a href="#blog" class="nav-item nav-link">News</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I'm</p>
+                                <h1>Joseph Krueger</h1>
+                                <h2></h2>
+                                <div class="typed-text">Mechanical Engineer, Space Enthusiast, Disc Golfer, Passionate Explorer</div>
+                            </div>
+                            <div class="hero-btn">
+                                <a class="btn" href="#contact">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/Joseph.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/Symposium.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2>Innovation and Passion</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Hello! I am Joseph Krueger, an Aerospace Master's Student at the Techincal University of Delft, Netherlands.  
+                                </p>
+								<p>
+                                    I have always loved to experience new things and learn how the world around me works. This passion has taken me from Villanova, to UPenn, and now to the Netherlands as I follow what I love to do.
+                                </p>
+								<p>
+                                    In everything I do I continually look for creative, novel solutions that push the boundaries of what is possible now and explore the possibilities of the future.
+                                </p>
+								<p>
+                                    If you would like to know more about me or discuss opportunities, do not hesitate to say hello!
+                                </p>
+                            </div>
+                            
+                            </div>
+                            <!--<a class="btn" href="">Learn More</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- About End -->
+        
+        
+    
+         <!-- Experience Start -->
+        <!-- <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Working Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Job Experience End -->
+		
+        <!-- Portfolio Start -->
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    
+                </div>
+                <div class="row">
+                	<object type="application/pdf" data="Joseph Krueger Resume 2021.pdf" id="pdf">
             <p align="center">PDF display error. If you want my resume please download it <a href="Joseph Krueger Resume 2020.pdf" download>here</a></p>
-        </object>
-        <p>Because I have known what I want to do for a long time, I have made efforts to get involved with opportunities that I enjoy and benefit me professionally.</p>
-        <p>In high school I was involved with several clubs that deal with math and engineering. One I was invested in was the robotics team, as first a member and then as the captain for my junior and senior years. We competed in several area VEX robotics competitions and placed in third at one of them.
-            I was also a member of the school’s math club, where we participated in regional math challenges and competitions. I always performed well and near the top in most competitions.
-            When I graduated I was awarded the Math Department Award for being the top student in that department and the National High School Orchestra Award for outstanding leadership in the orchestra.
-        </p>
-        <p>
-            In college I have tried to give myself practical and research experience that makes me a better, well-rounded individual. Over the summer of 2018 I worked full-time as an intern for a local manufacturing company named Coupling Corporation of America. I not only learned the design process for new couplings and the engineering involved, but also got hand on experience machining, cleaning, and assembling the couplings that were designed. It was a wonderful opportunity to see the full manufacturing process and gave me invaluable experience working in an industrial setting.
-            Over the summer of 2019, I worked at Villanova as an undergraduate researcher in the mechanical engineering department. Under the mentorship of a professor, I applied for and was awarded a Villanova Undergraduate Research Fellowship, which provides room, board, and a stipend for summer research. This gave me an incredible opportunity to propose, conduct, and present personal research under the direction of a professor.
-        </p>
-        <p>
-            Additionally, I have experience outside of the normal skill-set expected of engineers. I am the manager for a band that formed from my friends in high school. With my guidance, they played local venues and created and released a full-length album that is distributed on most major streaming platforms.
-            I also served as the cinematographer on another friend’s short film that won the PA state computer fair prize for best short film.
-            When he told me that he was working on another short film, I took a larger role and merged my love for music and film into one as the film’s composer. The film performed well enough that two more short films are being planned and include me as the composer.
-            Finally, during high school, my friends got me into cross country running, which I competed in my final two years there. Now I run as a hobby, continually lowering my times and raising the bar.
-        </p>
-        <p>
-            Overall, I always strive to be a well-rounded person who is motivated to do well and enjoy the craft. I hope to take my talents and personality to a deserving company to perform my best and help the company achieve its goals. My resume is displayed to the right and summarizes all the information in this webpage and is available for download. Feel free to contact me if you want more information or wish to speak to me about an opportunity.
+        </object>    
+                
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->   
+  
+        <!-- Blog Start -->
+        <div class="blog" id="blog">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>News</p>
+                    <h2>Latest Articles</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="blog-img">
+                                <img src="img/2020_rascal_ee_image.png" alt="NASA">
+                            </div>
+                            <div class="blog-text">
+                                <h2>NASA Selects 16 University Teams to Develop Deep Space Mission Concepts</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-calendar-alt"></i>Mar 29, 2021</p>
+                                </div>
+                                <p>
+                                    Sixteen undergraduate and graduate team finalists will proceed to the next phase of NASA’s Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-AL) program, with the clock now ticking toward June’s virtual 2021 RASC-AL Forum, where teams will showcase their completed work in a competitive design review directly to NASA and aerospace industry leaders.
+                                </p>
+                                <a class="btn" href="https://www.nasa.gov/feature/nasa-selects-16-university-teams-to-develop-deep-space-mission-concepts">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="blog-img">
+                                <img src="img/page_1.jpg" alt="Villanova">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Villanova Engineer - Spring 2021</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-calendar-alt"></i> Jun 7, 2021</p>
+                                </div>
+                                <p>
+                                    This issue of the biannual Villanova Engineer magazine is dedicated to "Research Reimagined" and features stories from each of the College's 15 newly identified research "neighborhoods."
+                                </p>
+                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
 
-        </p>
-        <p style="text-align: center;text-indent: 0px">Thank You,<br>Joseph Krueger</p>
-    </div>
-	<hr>
-	<div class="About">
-        <span id="Projects">
-            <h2><a href="#top">Projects</a></h2>
-        </span>
-				<h3 align="center" id="title">Villanova Undergraduate Research Fellowship</h3>
-       	<span class="prog">
-            <img id="sym" src="Symposium.jpg" alt="Joseph Presenting at Research Symposium">
-            <p>During the summer after sophomore year, I applied for a fellowship with VURF. Under the instruction of a faculty mentor, I learned theory, participated in research, and ultimately presented my findings at a symposium at the beginning of junior year.
-            </p>
-        </span>
-    </div>
-    <hr>
-    <div class="Contact">
-        <span id="Contact">
-            <h2><a href="#top">Contact Me</a></h2>
-        </span>
-        <ul>
-            <li>Email: <a href="mailto: jkruege4@villanova.edu"> Jkruege4@villanova.edu</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/joseph-krueger" target="_blank">https://www.linkedin.com/in/joseph-krueger</a></li>
-        </ul>
-    </div>
 
-</body>
-<hr>
-<footer>
-    <address>
-        Published June 2019<br>
-        Managed by: Joseph Krueger<br>
-        Contact info:<br>
-        Email: <a href="mailto: jakrueger98@comcast.net">Jakrueger98@comcast.net</a>
-    </address>
-</footer>
+        <!-- Footer Start -->
+        <div id="contact" class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Joseph Krueger</h2>
+                        <h3>Villanova, PA 19085</h3>
+                        <div class="footer-menu">
+                            <p>+01 (717) 309-6104</p>
+                            <p>jakrueger98@comcast.net</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="https://www.linkedin.com/in/joseph-krueger"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!--
+				<div class="container copyright">
+                    <!-- <p>&copy; <a href="#">JosephKrueger.Org</a>, All Right Reserved | Designed By <a href="https://josephkrueger.org">Joseph Krueger</a></p> -->
+                <!-- </div> -->
+				
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
 
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
 </html>
